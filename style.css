@@ -1,0 +1,90 @@
+body {
+  background-color: lightblue;
+  margin: 0 auto;
+  max-width: 50em;
+  padding: 4em 1em;
+  color: #555;
+}
+
+
+.hobbies {
+  font-family: Georgia, serif;
+  font-size: 20px;
+  font-weight: normal;
+  letter-spacing: 1.2px;
+  color: #009900;
+
+}
+
+a {
+  color: #e81c4f;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.name {
+  font-family: Georgia, serif;
+  font-size: 12px;
+  color: white;
+  letter-spacing: 1.4px;
+  border-bottom: solid 1px #006600;
+  text-transform: uppercase;
+  text-align: center;
+  background-image: url("https://manuscriptroadtrip.files.wordpress.com/2014/01/seattle.jpg");
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  line-height: 0.1;
+  padding: 10vw 2em;
+
+
+}
+
+.schoolimg {
+  position: relative;
+  left: 200px;
+  bottom: 100px;
+}
+
+.school {
+  font-family: Georgia, serif;
+  left: 300px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #006600;
+  letter-spacing: 1.4px;
+  text-transform: uppercase;
+}
+
+.school h2 {
+  padding-right: 40px
+}
+
+.videos {
+  font-family: Georgia, serif;
+  left: 300px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #006600;
+  letter-spacing: 1.4px;
+  text-transform: uppercase;
+
+}
+
+img {
+  padding: 5px;
+}
+
+.flex-box {
+  display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
+  display: -moz-box;         /* OLD - Firefox 19- (buggy but mostly works) */
+  display: -ms-flexbox;      /* TWEENER - IE 10 */
+  display: -webkit-flex;
+  display: flex;
+
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  align-items: center;
+  align-content: center;
+  flex-direction: row;
+}
