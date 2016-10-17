@@ -11,7 +11,7 @@ $(document).ready(function() {
     }
   );
 
-  $('#videos spacer').hover(function() {
+  $('#videos').hover(function() {
     $(this).addClass('damp');
   },
     function() {
@@ -20,19 +20,18 @@ $(document).ready(function() {
   );
 
 
-
    $("#school").click(function() {
         $('#schoolimg').toggle('slow');
    });
 
    $("#videos").click(function() {
-        $('#breakfastvideo').fadeIn('slow');
+        $('#breakfastvideo').toggle('slow');
    });
    $("#photography").click(function() {
-        $('#slider').fadeIn('slow');
+        $('#slider').toggle('slow');
    });
    $("#work").click(function() {
-        $('#work-desc').fadeIn('slow');
+        $('#work-desc').toggle('slow');
    });
 
 

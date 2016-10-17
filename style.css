@@ -1,12 +1,11 @@
 * {
   margin: 0px;
   padding: 0px;
+
 }
 
 body {
   background-color: gray;
-  margin: 0 auto;
-  max-width: 50em;
 }
 
 
@@ -32,7 +31,7 @@ span {
 }
 
 a {
-  color: gray;
+  color: black;
   text-decoration: none;
   display: inline-block;
   font-size:30px;
@@ -50,8 +49,10 @@ a {
   background-position: center top;
   background-repeat: no-repeat;
   background-size: cover;
-  line-height: 4;
-  padding: 10vw 2em;
+  max-width: 100%;
+  margin: 0px auto 0px auto;
+  line-height: 6;
+  padding: 10% 2em;
 }
 
 .school {
@@ -64,7 +65,7 @@ a {
   border: 2px solid white;
   background: linear-gradient(top, #34696f, #2f5f63);
   border-radius: 50px;
-  position: relative;
+  position: block;
   left: 300px;
   font-size: 18px;
   color: lightgray;
@@ -88,7 +89,7 @@ a {
   background: linear-gradient(top, #34696f, #2f5f63);
   border-radius: 50px;
   font-family: Georgia, serif;
-  position:relative;
+  position:block;
   left: 300px;
   bottom: 100px;
   font-size: 22px;
@@ -114,7 +115,7 @@ a {
   background: linear-gradient(top, #34696f, #2f5f63);
   border-radius: 50px;
   font-family: Georgia, serif;
-  position:relative;
+  position:block;
   left: 300px;
   bottom: 100px;
   font-size: 25px;
@@ -204,7 +205,7 @@ img {
   background: linear-gradient(top, #34696f, #2f5f63);
   border-radius: 50px;
   font-family: Georgia, serif;
-  position:relative;
+  position:block;
   left: 300px;
   bottom: 110px;
   font-size: 30px;
@@ -221,9 +222,15 @@ img {
 }
 
 .spacer {
-  margin: 30px 0px 30px 0px;
+  margin: 30px auto 30px 0px;
 }
 
 .damp {
     background-color: darkgray;
+}
+
+.main-container {
+  width: 70vw;
+  margin: 0px auto 0px auto;
+  justify-content: center;
 }
