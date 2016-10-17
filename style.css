@@ -4,7 +4,7 @@
 }
 
 body {
-  background-color: lightblue;
+  background-color: gray;
   margin: 0 auto;
   max-width: 50em;
 }
@@ -16,13 +16,14 @@ body {
   bottom: 20px;
   font-family:Georgia,serif;
   font-size: 35px;
-	color:#4E443C;
-  border-bottom: solid 1px #4E443C;
+  color: purple;
+	/*color:#4E443C;*/
+  border-bottom: solid 1px lightgray;
 	font-variant: small-caps;
   text-transform: none;
   font-weight: 100;
   margin-top: 5px;
-  height: 1em;
+  height: 1.25em;
 }
 
 span {
@@ -49,24 +50,24 @@ a {
   background-position: center top;
   background-repeat: no-repeat;
   background-size: cover;
-  line-height: 0.1;
+  line-height: 4;
   padding: 10vw 2em;
 }
 
 .school {
   display: block;
-  background: #34696f;
+  background: purple;
   height: 30px;
-  width: 140px;
+  width: 160px;
   text-align: center;
   font-family: Georgia, serif;
-  border: 2px solid lightgreen;
+  border: 2px solid white;
   background: linear-gradient(top, #34696f, #2f5f63);
   border-radius: 50px;
   position: relative;
-  left: 295px;
+  left: 300px;
   font-size: 18px;
-  color: white;
+  color: lightgray;
   letter-spacing: 2.0px;
   text-transform: uppercase;
 }
@@ -78,13 +79,21 @@ a {
 }
 
 .videos {
+  display:block;
+  background: purple;
+  height: 30px;
+  width: 160px;
+  text-align: center;
+  border: 2px solid white;
+  background: linear-gradient(top, #34696f, #2f5f63);
+  border-radius: 50px;
   font-family: Georgia, serif;
   position:relative;
   left: 300px;
   bottom: 100px;
   font-size: 22px;
   font-weight: bold;
-  color: #006600;
+  color: lightgray;
   letter-spacing: 2.2px;
   text-transform: uppercase;
 }
@@ -96,13 +105,21 @@ a {
 }
 
 .photography {
+  display:block;
+  background: purple;
+  height: 30px;
+  width: 160px;
+  text-align: center;
+  border: 2px solid white;
+  background: linear-gradient(top, #34696f, #2f5f63);
+  border-radius: 50px;
   font-family: Georgia, serif;
   position:relative;
   left: 300px;
   bottom: 100px;
   font-size: 25px;
   font-weight: bold;
-  color: #006600;
+  color: lightgray;
   letter-spacing: 2.2px;
   text-transform: uppercase;
 }
@@ -178,13 +195,21 @@ img {
 }
 
 .work {
+  display:block;
+  background: purple;
+  height: 30px;
+  width: 160px;
+  text-align: center;
+  border: 2px solid white;
+  background: linear-gradient(top, #34696f, #2f5f63);
+  border-radius: 50px;
   font-family: Georgia, serif;
   position:relative;
   left: 300px;
   bottom: 110px;
   font-size: 30px;
   font-weight: bold;
-  color: #006600;
+  color: lightgray;
   letter-spacing: 2.2px;
   text-transform: uppercase;
 }
@@ -200,5 +225,5 @@ img {
 }
 
 .damp {
-    background-color: red;
+    background-color: darkgray;
 }

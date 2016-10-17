@@ -11,9 +11,20 @@ $(document).ready(function() {
     }
   );
 
+  $('#videos spacer').hover(function() {
+    $(this).addClass('damp');
+  },
+    function() {
+      $(this).removeClass('damp');
+    }
+  );
+
+
+
    $("#school").click(function() {
-        $('#schoolimg').fadeIn('slow');
+        $('#schoolimg').toggle('slow');
    });
+
    $("#videos").click(function() {
         $('#breakfastvideo').fadeIn('slow');
    });
