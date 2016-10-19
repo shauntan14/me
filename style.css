@@ -1,7 +1,6 @@
 * {
   margin: 0px;
   padding: 0px;
-
 }
 
 body {
@@ -79,6 +78,21 @@ a {
   bottom: 60px;
 }
 
+.school-desc{
+  position: relative;
+  left: 1110px;
+  bottom: 460px;
+  width: 500px;
+  word-wrap: break-word;
+  font-family: Georgia, serif;
+  font-size: 15px;
+  font-weight: bold;
+  color: black;
+  letter-spacing: 2.2px;
+  text-transform: uppercase;
+
+}
+
 .videos {
   display:block;
   background: purple;
@@ -97,6 +111,7 @@ a {
   color: lightgray;
   letter-spacing: 2.2px;
   text-transform: uppercase;
+
 }
 
 .breakfastvideo {

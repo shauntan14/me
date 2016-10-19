@@ -3,6 +3,10 @@ $(document).ready(function() {
   $('#breakfastvideo').hide();
   $('#slider').hide();
   $('#work-desc').hide();
+  $('#school-desc').hide();
+
+
+
   $('#school').hover(function() {
     $(this).addClass('damp');
   },
@@ -19,9 +23,27 @@ $(document).ready(function() {
     }
   );
 
+  $('#photography').hover(function() {
+    $(this).addClass('damp');
+  },
+    function() {
+      $(this).removeClass('damp');
+    }
+  );
+
+  $('#work').hover(function() {
+    $(this).addClass('damp');
+  },
+    function() {
+      $(this).removeClass('damp');
+    }
+  );
+
+
 
    $("#school").click(function() {
         $('#schoolimg').toggle('slow');
+        $('#school-desc').toggle(2000);
    });
 
    $("#videos").click(function() {
